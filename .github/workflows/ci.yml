@@ -16,7 +16,7 @@ jobs:
       # Install NPM dependencies, cache them correctly
       # and run all Cypress tests
       - name: Cypress run
-        uses: cypress-io/github-actions@v5
+        uses: cypress-io/github-action@v5
 
   deploy-storage:
     needs: [cypress-test]
